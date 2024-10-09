@@ -2,7 +2,7 @@ import { HideOnScreenDirective } from './hide-on-screen.directive';
 import { Component, DebugElement } from '@angular/core';
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { SCREEN_SIZES } from '../constants';
+import { SCREEN_SIZES } from '../../constants';
 
 @Component({
   template: `<div *hideOnScreen="screenSize" class="test-element">Hidden on md and larger</div>`,

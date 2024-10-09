@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HideOnScreenDirective, ShowOnScreenDirective } from './directives';
-import { SCREEN_SIZES } from './directives/constants';
+import { SCREEN_SIZES } from './constants';
 
 @Component({
   selector: 'app-root',

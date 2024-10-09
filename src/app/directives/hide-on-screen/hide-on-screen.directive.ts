@@ -1,6 +1,6 @@
 import { Directive, Input, TemplateRef, ViewContainerRef, OnInit, DestroyRef, ChangeDetectorRef } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { WINDOW_RESIZE$, SCREEN_SIZES } from '../constants';
+import { WINDOW_RESIZE$, SCREEN_SIZES } from '../../constants';
 
 /**
  * Directive to conditionally hide an element based on the screen size.
